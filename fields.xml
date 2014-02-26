@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="smoothie">
+	<name>plg_smoothie_fields</name>
+	<author>Christian Pschorr</author>
+	<creationDate>14.02.2014</creationDate>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>pschorr.christian@gmail.com</authorEmail>
+	<authorUrl>http://christian-pschorr.de</authorUrl>
+	<version>0.0.1</version>
+	<description>PLG_SMOOTHIE_FIELDS_XML_DESCRIPTION</description>
+	<files>
+		<filename plugin="fields">fields.php</filename>
+		<filename>index.html</filename>
+		<folder>language</folder>
+	</files>
+	<languages>
+		<language tag="de-DE">language/de-DE/de-DE.plg_smoothie_fields.ini</language>
+		<language tag="de-DE">language/de-DE/de-DE.plg_smoothie_fields.sys.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+
+		<fieldset name="basic" addfieldpath="/plugins/smoothie/fields/fields">
+			<field name="image" type="SmoothieImage" label="PLG_SMOOTHIE_FIELDS_IMAGE_LABEL"
+        description="PLG_SMOOTHIE_FIELDS_IMAGE_DESC"
+      />
+		</fieldset>
+
+	</fields>
+	</config>
+</extension>
